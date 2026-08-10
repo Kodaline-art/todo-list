@@ -36,16 +36,21 @@ body {
 }
 
 .navbar {
+  position: sticky;
+  top: 16px;
+  z-index: 20;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 16px;
-  padding: 16px 20px;
-  margin-bottom: 24px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(10px);
+  width: min(100%, 740px);
+  margin: 0 auto 24px;
+  padding: 16px 24px;
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.18), rgba(37, 99, 235, 0.12));
+  backdrop-filter: blur(18px);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.16);
 }
 
 .brand {
