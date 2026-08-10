@@ -13,7 +13,7 @@ A simple to-do list project for tracking tasks and planning work.
 - `README.md` - Project overview
 - `TODO.md` - Task list and next steps
 - `index.html` - Main app page
-- `styles.css` - App styling and animations
+- `style.css` - App styling and animations
 - `script.js` - Task behavior and animations
 
 ## Notes
