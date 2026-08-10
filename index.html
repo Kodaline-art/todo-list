@@ -8,12 +8,20 @@
 </head>
 <body>
   <div class="app-shell">
+    <nav class="navbar">
+      <div class="brand">My Tasks</div>
+      <div class="nav-links">
+        <a href="#tasks">Tasks</a>
+        <a href="#add">Add</a>
+      </div>
+    </nav>
+
     <header>
       <h1>Animated To-Do List</h1>
       <p>Keep your tasks moving with smooth entry and completion animations.</p>
     </header>
 
-    <section class="task-creator">
+    <section id="add" class="task-creator">
       <input id="taskInput" type="text" placeholder="Enter a new task" />
       <button id="addTaskBtn">Add Task</button>
     </section>
